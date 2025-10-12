@@ -1,9 +1,11 @@
-<?php include 'header.inc';
+<?php include 'header.inc'; ?>
+<?php 
 session_start();
 if (isset($_SESSION['user'])) {
     echo "Welcome, ".$_SESSION['user'];
 } else {
     header('Location: login.html');
 }
-include_once ("footer.inc"); 
 ?>
+
+<?php include_once ("footer.inc"); ?> 
