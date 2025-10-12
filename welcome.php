@@ -5,4 +5,5 @@ if (isset($_SESSION['user'])) {
 } else {
     header('Location: login.html');
 }
+include_once ("footer.inc"); 
 ?>
