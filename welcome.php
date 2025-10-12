@@ -7,5 +7,3 @@ if (isset($_SESSION['user'])) {
     header('Location: login.html');
 }
 ?>
-
-<?php include_once ("footer.inc"); ?> 
